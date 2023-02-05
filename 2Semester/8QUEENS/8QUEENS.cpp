@@ -49,11 +49,11 @@ void setQueen(int i, int j)
         board[i][x] += 1; // hor attack is marked
         
         int d;
-        d = j - i + x;         // diagonal 1
+        d = j - i + x;         // main diagonal
         if (d >= 0 && d < 8)
         { board[x][d] += 1; }
 
-        d = j + i - x;        // diagonal 2
+        d = j + i - x;        // sec diagonal
         if (d >= 0 && d < 8)
         { board[x][d] += 1; }
     }
