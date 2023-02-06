@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 int main()
@@ -9,23 +8,23 @@ int main()
     mass = new int[n];
     for(int i = 1;i <= n;i++)
     {
-        cin>>mass[i - 1];
+        cin>>mass[i];
     }
-    for(int i = 1;i <= n;i++)
+    for(int i = 0;i <= n - 1;i++) // running along the length of the array
     {
-        for(int j = 1;j <= n - i;j++)
+        for(int j = 0;j <= n - 1 - i;j++) // comparing two bubbles and not counting the sorted ones
         {
-            if(mass[j - 1] > mass[j])
+            if(mass[j] > mass[j + 1])
             {
-                tmp = mass[j];
-				mass[j] = mass[j - 1];
-				mass[j - 1] = tmp;
+                tmp = mass[j + 1];
+				mass[j + 1] = mass[j];
+				mass[j] = tmp;
             }
         }
     }
     for(int i = 1;i <= n;i++)
     {
-        cout << mass[i- 1] << " ";
+        cout << mass[i] << " ";
     }
     cout << endl;
     delete mass;
