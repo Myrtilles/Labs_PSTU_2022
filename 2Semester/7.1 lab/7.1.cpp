@@ -1,4 +1,4 @@
-
+// 9 variant, slojenie obyknovennyh i desyatichnyh drobey
 
 #include <iostream>
 
