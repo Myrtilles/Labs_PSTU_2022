@@ -53,9 +53,7 @@ int main()
 	for (int i = 0; i < size; i++) 
 	{
 		mass[i] = rand() % 100;
-	}
-	cout << endl;
-	
+	}	
 	bucketSort(mass, size);
 
 	for (int i = 0; i < size; i++) 
