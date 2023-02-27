@@ -41,9 +41,9 @@ void countSort(int mass[], int size)
 }
 
 
-void display(int mass[], int n) 
+void display(int mass[], int size) 
 {
-  for (int i = 0; i < n; i++)
+  for (int i = 0; i < size; i++)
     cout << mass[i] << " ";
   cout << endl;
 }
