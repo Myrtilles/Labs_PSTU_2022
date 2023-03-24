@@ -20,7 +20,7 @@ int main()
     {
         if(key == mass[i])
         {
-            cout << key << " is found with index "<< i <<endl;
+            cout << key << " is found with position "<< i + 1 <<endl;
             flag = true;
         }
     }
