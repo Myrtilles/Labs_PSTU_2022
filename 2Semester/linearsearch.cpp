@@ -14,7 +14,7 @@ int main()
         mass[i] = rand() % 101;
         cout << mass[i] << ' ';
     }
-    cout<<"enter elements to be searched :" << ' ';
+    cout<<"enter an element to be searched :" << ' ';
     cin >> key;
     for(int i = 0; i < size;i++)
     {
