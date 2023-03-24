@@ -31,7 +31,7 @@ int main()
       mass[i] = rand() % 101;
       cout << mass[i] << ' ';
     }
-    cout<<"Enter elements to be searched:";
+    cout << endl << "Enter an element to be searched:" << ' ';
     cin >> key;
     InterpolationSearch(mass,0, size, key);
 
