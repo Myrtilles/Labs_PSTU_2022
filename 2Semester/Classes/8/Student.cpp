@@ -12,17 +12,17 @@ Student::~Student(void)
 }
 void Student::Show(void)
 {
-	cout << "Èìÿ: " << Name << endl;
-	cout << "Âîçðàñò: " << Age << endl;
-	cout << "Ðåéòèíã: " << Rating << endl;
+	cout << "ÃˆÃ¬Ã¿: " << Name << endl;
+	cout << "Ã‚Ã®Ã§Ã°Ã Ã±Ã²: " << Age << endl;
+	cout << "ÃÃ¥Ã©Ã²Ã¨Ã­Ã£: " << Rating << endl;
 }
 void Student::Input(void)
 {
-	cout << "Èìÿ: ";
+	cout << "ÃˆÃ¬Ã¿: ";
 	cin >> Name;
-	cout << "Âîçðàñò: ";
+	cout << "Ã‚Ã®Ã§Ã°Ã Ã±Ã²: ";
 	cin >> Age;
-	cout << "Ðåéòèíã: ";
+	cout << "ÃÃ¥Ã©Ã²Ã¨Ã­Ã£: ";
 	cin >> Rating;
 	cout << endl;
 }
