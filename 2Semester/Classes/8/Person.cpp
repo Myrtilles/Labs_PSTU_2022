@@ -13,14 +13,14 @@ Person::~Person(void)
 }
 void Person::Show(void)
 {
-	cout << "Èìÿ: " << Name << endl;
-	cout << "Âîçðàñò: " << Age << endl;
+	cout << "ÃˆÃ¬Ã¿: " << Name << endl;
+	cout << "Ã‚Ã®Ã§Ã°Ã Ã±Ã²: " << Age << endl;
 }
 void Person::Input(void)
 {
-	cout << "Èìÿ: ";
+	cout << "ÃˆÃ¬Ã¿: ";
 	cin >> Name;
-	cout << "Âîçðàñò: ";
+	cout << "Ã‚Ã®Ã§Ã°Ã Ã±Ã²: ";
 	cin >> Age;
 	cout << endl;
 }
@@ -67,7 +67,7 @@ void Person::HandleEvent(const TEvent& e)
 		switch (e.command)
 		{
 		case cmGet:
-			cout << "Èìÿ: " << getName() << endl;
+			cout << "ÃˆÃ¬Ã¿: " << getName() << endl;
 			break;
 		}
 	}
