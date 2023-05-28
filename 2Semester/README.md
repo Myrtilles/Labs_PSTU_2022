@@ -65,6 +65,9 @@
    
  **Simple sortings** - простые методы сортировки
  
+
+
+ 
    * bubble sort - метод пузырька
    * insertion sort - метод вставок
    * selection sort - метод выбора
@@ -72,5 +75,6 @@
    
  **Two-phase-merge sort** - двухфазная сортировка
  
- ![Uploading image.png…]()
+ ![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2F2meirl4meirl%2Fcomments%2Fb4ukk0%2F2meirl4youirl%2F&psig=AOvVaw10uefOf5LJuoaCRg8F3tWh&ust=1685381963183000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMj63Z7HmP8CFQAAAAAdAAAAABAJ)
+
 
