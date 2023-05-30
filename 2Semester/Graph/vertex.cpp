@@ -199,30 +199,30 @@ void Vertex::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QW
         gradient.setFocalPoint(3, 3);
 
         if (this -> color == "white"){
-            gradient.setColorAt(1, QColor(Qt::yellow).lighter(120));
-            gradient.setColorAt(0, QColor(Qt::darkYellow).lighter(120));
+            gradient.setColorAt(1, QColor(Qt::green).lighter(120));
+            gradient.setColorAt(0, QColor(Qt::darkGreen).lighter(120));
         }
         else if (this -> color == "gray"){
             gradient.setColorAt(1, QColor(Qt::lightGray).lighter(120));
             gradient.setColorAt(0, QColor(Qt::darkGray).lighter(120));
         }
         else if (this -> color == "black"){
-            gradient.setColorAt(1, QColor(Qt::cyan).lighter(120));
-            gradient.setColorAt(0, QColor(Qt::darkCyan).lighter(120));
+            gradient.setColorAt(1, QColor(Qt::yellow).lighter(120));
+            gradient.setColorAt(0, QColor(Qt::darkYellow).lighter(120));
         }
 
     } else {
         if (this -> color == "white"){
-            gradient.setColorAt(0, QColor(Qt::yellow).lighter(120));
-            gradient.setColorAt(1, QColor(Qt::darkYellow).lighter(120));
+            gradient.setColorAt(0, QColor(Qt::green).lighter(120));
+            gradient.setColorAt(1, QColor(Qt::darkGreen).lighter(120));
         }
         else if (this -> color == "gray"){
             gradient.setColorAt(0, QColor(Qt::lightGray).lighter(120));
             gradient.setColorAt(1, QColor(Qt::darkGray).lighter(120));
         }
         else if (this -> color == "black"){
-            gradient.setColorAt(0, QColor(Qt::cyan).lighter(120));
-            gradient.setColorAt(1, QColor(Qt::darkCyan).lighter(120));
+            gradient.setColorAt(0, QColor(Qt::yellow).lighter(120));
+            gradient.setColorAt(1, QColor(Qt::darkYellow).lighter(120));
         }
     }
     painter->setBrush(gradient);
