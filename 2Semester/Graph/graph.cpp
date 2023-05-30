@@ -103,8 +103,8 @@ void Graph::createTabWidget(const QRectF &rect){
     addVertexButton->setText(tr("Add Vertex"));
     addVertexButton->setFont(textfont);
     addVertexButton->setMaximumSize(QSize(120, 35));
-    addVertexButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkBlue;} "
-                                   "QPushButton:pressed{background-color: lightBlue;} "
+    addVertexButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkCyan;} "
+                                   "QPushButton:pressed{background-color: cyan;} "
                                    "QPushButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
     connect(addVertexButton, &QPushButton::clicked, this, &Graph::insertVertex);
 
@@ -112,8 +112,8 @@ void Graph::createTabWidget(const QRectF &rect){
     eraseVertexButton->setText(tr("Erase Vertex"));
     eraseVertexButton->setFont(textfont);
     eraseVertexButton->setMaximumSize(QSize(130, 35));
-    eraseVertexButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkBlue;} "
-                                   "QPushButton:pressed{background-color: lightBlue;} "
+    eraseVertexButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkCyan;} "
+                                   "QPushButton:pressed{background-color: cyan;} "
                                    "QPushButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
 
     connect(eraseVertexButton, &QPushButton::clicked, this, &Graph::createEraseVertexWindow);
@@ -122,8 +122,8 @@ void Graph::createTabWidget(const QRectF &rect){
     setVertexPosButton->setText(tr("Set Position"));
     setVertexPosButton->setFont(textfont);
     setVertexPosButton->setMaximumSize(QSize(125, 35));
-    setVertexPosButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkBlue;} "
-                                      "QPushButton:pressed{background-color: lightBlue;} "
+    setVertexPosButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkCyan;} "
+                                      "QPushButton:pressed{background-color: cyan;} "
                                       "QPushButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
 
     connect(setVertexPosButton, &QPushButton::clicked, this, &Graph::createSetVertexPosWindow);
@@ -132,8 +132,8 @@ void Graph::createTabWidget(const QRectF &rect){
     vertexInfoButton->setText(tr("Vertex Info"));
     vertexInfoButton->setFont(textfont);
     vertexInfoButton->setMaximumSize(QSize(120, 35));
-    vertexInfoButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkBlue;} "
-                                   "QPushButton:pressed{background-color: lightBlue;} "
+    vertexInfoButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkCyan;} "
+                                   "QPushButton:pressed{background-color: cyan;} "
                                    "QPushButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
 
     connect(vertexInfoButton, &QPushButton::clicked, this, &Graph::createVertexInfoWindow);
@@ -148,8 +148,8 @@ void Graph::createTabWidget(const QRectF &rect){
     addEdgeButton->setText(tr("Add Edge"));
     addEdgeButton->setFont(textfont);
     addEdgeButton->setMaximumSize(QSize(120, 35));
-    addEdgeButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkBlue;} "
-                                 "QPushButton:pressed{background-color: lightBlue;} "
+    addEdgeButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkCyan;} "
+                                 "QPushButton:pressed{background-color: cyan;} "
                                  "QPushButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
     connect(addEdgeButton, &QPushButton::clicked, this, &Graph::createAddEdgeWindow);
 
@@ -157,8 +157,8 @@ void Graph::createTabWidget(const QRectF &rect){
     updateWeightButton->setText(tr("Update Weight"));
     updateWeightButton->setFont(textfont);
     updateWeightButton->setMaximumSize(QSize(150, 35));
-    updateWeightButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkBlue;} "
-                                  "QPushButton:pressed{background-color: lightBlue;} "
+    updateWeightButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkCyan;} "
+                                  "QPushButton:pressed{background-color: cyan;} "
                                   "QPushButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
     connect(updateWeightButton, &QPushButton::clicked, this, &Graph::createUpdateWeightWindow);
 
@@ -168,8 +168,8 @@ void Graph::createTabWidget(const QRectF &rect){
     eraseEdgeButton->setText(tr("Erase Edge"));
     eraseEdgeButton->setFont(textfont);
     eraseEdgeButton->setMaximumSize(QSize(130, 35));
-    eraseEdgeButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkBlue;} "
-                                 "QPushButton:pressed{background-color: lightBlue;} "
+    eraseEdgeButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkCyan;} "
+                                 "QPushButton:pressed{background-color: cyan;} "
                                  "QPushButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
     connect(eraseEdgeButton, &QPushButton::clicked, this, &Graph::createEraseEdgeWindow);
 
@@ -183,8 +183,8 @@ void Graph::createTabWidget(const QRectF &rect){
     functionButton->setText(tr("Functions"));
     functionButton->setFont(textfont);
     functionButton->setMaximumSize(QSize(120, 35));
-    functionButton->setStyleSheet("QToolButton:selected, QToolButton:hover{color: darkBlue;} "
-                             "QToolButton:pressed{background-color: lightBlue;} "
+    functionButton->setStyleSheet("QToolButton:selected, QToolButton:hover{color: darkCyan;} "
+                             "QToolButton:pressed{background-color: cyan;} "
                              "QToolButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
     QMenu *menu = new QMenu;
     menu->setFixedWidth(200);
@@ -214,8 +214,8 @@ void Graph::createTabWidget(const QRectF &rect){
     resetButton->setText(tr("Reset"));
     resetButton->setFont(textfont);
     resetButton->setMaximumSize(QSize(90, 35));
-    resetButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkBlue;} "
-                             "QPushButton:pressed{background-color: lightBlue;} "
+    resetButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkCyan;} "
+                             "QPushButton:pressed{background-color: cyan;} "
                              "QPushButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
     connect(resetButton, &QPushButton::clicked, this, &Graph::reset);
 
@@ -223,8 +223,8 @@ void Graph::createTabWidget(const QRectF &rect){
     clearButton->setText(tr("Clear"));
     clearButton->setFont(textfont);
     clearButton->setMaximumSize(QSize(100, 35));
-    clearButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkBlue;} "
-                             "QPushButton:pressed{background-color: lightBlue;} "
+    clearButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkCyan;} "
+                             "QPushButton:pressed{background-color: cyan;} "
                              "QPushButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
     connect(clearButton, &QPushButton::clicked, this, &Graph::clear);
 
@@ -232,8 +232,8 @@ void Graph::createTabWidget(const QRectF &rect){
     graphInfoButton->setText(tr("Graph Info"));
     graphInfoButton->setFont(textfont);
     graphInfoButton->setMaximumSize(QSize(110, 35));
-    graphInfoButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkBlue;} "
-                             "QPushButton:pressed{background-color: lightBlue;} "
+    graphInfoButton->setStyleSheet("QPushButton:selected, QPushButton:hover{color: darkCyan;} "
+                             "QPushButton:pressed{background-color: cyan;} "
                              "QPushButton{height: 30px; width: 30px; background-color: lightGray; border-right, border-bottom: 4px solid Gray;}");
     connect(graphInfoButton, &QPushButton::clicked, this, &Graph::getGraphInfo);
 
