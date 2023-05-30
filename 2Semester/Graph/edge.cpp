@@ -76,8 +76,8 @@ void Edge::paint(QPainter *painter, const QStyleOptionGraphicsItem *, QWidget *)
         painter->setPen(QPen(Qt::black, 1, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin));
     }
     else if(color == "black"){
-        painter->setBrush(Qt::red);
-        painter->setPen(QPen(Qt::red, 1, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin));
+        painter->setBrush(Qt::green);
+        painter->setPen(QPen(Qt::green, 1, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin));
     }
     painter->drawLine(line);
     painter->drawPolygon(QPolygonF() << line.p2() << destArrowP1 << destArrowP2);
